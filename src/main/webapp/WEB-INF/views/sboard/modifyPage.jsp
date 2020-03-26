@@ -123,7 +123,7 @@ $(document).ready(function(){
 	
 	$(".btn-warning").on("click", function(){
 		self.location = "/sboard/list?page=${cri.page}&perPageNum=${cri.perPageNum}"
-				+"&searchType=${cri.searchType}&keyword=${cri.keyword}";
+				+"&searchType=${cri.searchType}&keyword=${cri.keyword}";				
 	});
 	$(".btn-primary").on("click", function(){
 		formObj.submit();
@@ -165,7 +165,7 @@ $(document).ready(function(){
 					<div id="button-box">
 						
 						<button type="submit" class="btn btn-primary">Save</button>
-						<button type="submit" class="btn btn-warning">Cancel</button>
+						<button type="button" class="btn btn-warning">Cancel</button>
 					</div>
 				</form>
 			</div>

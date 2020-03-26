@@ -78,9 +78,7 @@
 	}
 	if(result =='modify_SUCCESS'){
 		alert("글 수정 처리가 완료되었습니다.");
-	}
-	if(result =='CANCEL'){
-		alert("취소가 완료되었습니다.");
+		console.log("${msg}");
 	}
 </script>
 <script>

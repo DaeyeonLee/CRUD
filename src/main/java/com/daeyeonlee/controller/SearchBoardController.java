@@ -76,8 +76,6 @@ public class SearchBoardController {
 		rttr.addAttribute("keyword", cri.getKeyword());
 		
 		rttr.addFlashAttribute("msg", "modify_SUCCESS");
-		rttr.addFlashAttribute("msg", "CANCEL");
-		
 		logger.info(rttr.toString());
 		
 		return "redirect:/sboard/list";
