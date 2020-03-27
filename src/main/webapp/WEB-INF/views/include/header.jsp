@@ -83,9 +83,7 @@ button {
 <body>
 		<div id="head-gnb">
 			<ul>
-				<li id="top"><a href="index.html">BOARD</a></li>
-				<li><a href="index.html">MYPAGE</a></li>
-				<li><a href="index.html">LOGOUT</a></li>
+				<li id="top"><a href="/sboard/list">HOME</a></li>
 			</ul>
 		</div>
 </body>
